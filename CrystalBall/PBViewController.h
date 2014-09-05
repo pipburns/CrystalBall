@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class PBCrystalBall;
+
 @interface PBViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *predictionLabel;
+@property (strong, nonatomic) PBCrystalBall *crystalBall;
+-(void) makePrediction;
+@property (strong, nonatomic) IBOutlet UIImageView *backgroundImageView;
+
+
 
 @end
